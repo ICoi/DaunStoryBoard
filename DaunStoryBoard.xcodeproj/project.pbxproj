@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		709D0F001882F33E001E231A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 709D0EFF1882F33E001E231A /* Foundation.framework */; };
+		709D0F021882F33E001E231A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 709D0F011882F33E001E231A /* CoreGraphics.framework */; };
+		709D0F041882F33E001E231A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 709D0F031882F33E001E231A /* UIKit.framework */; };
+		709D0F0A1882F33E001E231A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 709D0F081882F33E001E231A /* InfoPlist.strings */; };
+		709D0F0C1882F33E001E231A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 709D0F0B1882F33E001E231A /* main.m */; };
+		709D0F101882F33E001E231A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 709D0F0F1882F33E001E231A /* AppDelegate.m */; };
+		709D0F131882F33E001E231A /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 709D0F111882F33E001E231A /* Main_iPhone.storyboard */; };
+		709D0F161882F33E001E231A /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 709D0F141882F33E001E231A /* Main_iPad.storyboard */; };
+		709D0F191882F33E001E231A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 709D0F181882F33E001E231A /* ViewController.m */; };
+		709D0F1B1882F33E001E231A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 709D0F1A1882F33E001E231A /* Images.xcassets */; };
+		709D0F221882F33F001E231A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 709D0F211882F33F001E231A /* XCTest.framework */; };
+		709D0F231882F33F001E231A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 709D0EFF1882F33E001E231A /* Foundation.framework */; };
+		709D0F241882F33F001E231A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 709D0F031882F33E001E231A /* UIKit.framework */; };
+		709D0F2C1882F33F001E231A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 709D0F2A1882F33F001E231A /* InfoPlist.strings */; };
+		709D0F2E1882F33F001E231A /* DaunStoryBoardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 709D0F2D1882F33F001E231A /* DaunStoryBoardTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		709D0F251882F33F001E231A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 709D0EF41882F33E001E231A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 709D0EFB1882F33E001E231A;
+			remoteInfo = DaunStoryBoard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		709D0EFC1882F33E001E231A /* DaunStoryBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DaunStoryBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		709D0EFF1882F33E001E231A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		709D0F011882F33E001E231A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		709D0F031882F33E001E231A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		709D0F071882F33E001E231A /* DaunStoryBoard-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DaunStoryBoard-Info.plist"; sourceTree = "<group>"; };
+		709D0F091882F33E001E231A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		709D0F0B1882F33E001E231A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		709D0F0D1882F33E001E231A /* DaunStoryBoard-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DaunStoryBoard-Prefix.pch"; sourceTree = "<group>"; };
+		709D0F0E1882F33E001E231A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		709D0F0F1882F33E001E231A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		709D0F121882F33E001E231A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		709D0F151882F33E001E231A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		709D0F171882F33E001E231A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		709D0F181882F33E001E231A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		709D0F1A1882F33E001E231A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		709D0F201882F33F001E231A /* DaunStoryBoardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DaunStoryBoardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		709D0F211882F33F001E231A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		709D0F291882F33F001E231A /* DaunStoryBoardTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DaunStoryBoardTests-Info.plist"; sourceTree = "<group>"; };
+		709D0F2B1882F33F001E231A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		709D0F2D1882F33F001E231A /* DaunStoryBoardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DaunStoryBoardTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		709D0EF91882F33E001E231A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				709D0F021882F33E001E231A /* CoreGraphics.framework in Frameworks */,
+				709D0F041882F33E001E231A /* UIKit.framework in Frameworks */,
+				709D0F001882F33E001E231A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		709D0F1D1882F33F001E231A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				709D0F221882F33F001E231A /* XCTest.framework in Frameworks */,
+				709D0F241882F33F001E231A /* UIKit.framework in Frameworks */,
+				709D0F231882F33F001E231A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		709D0EF31882F33E001E231A = {
+			isa = PBXGroup;
+			children = (
+				709D0F051882F33E001E231A /* DaunStoryBoard */,
+				709D0F271882F33F001E231A /* DaunStoryBoardTests */,
+				709D0EFE1882F33E001E231A /* Frameworks */,
+				709D0EFD1882F33E001E231A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		709D0EFD1882F33E001E231A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				709D0EFC1882F33E001E231A /* DaunStoryBoard.app */,
+				709D0F201882F33F001E231A /* DaunStoryBoardTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		709D0EFE1882F33E001E231A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				709D0EFF1882F33E001E231A /* Foundation.framework */,
+				709D0F011882F33E001E231A /* CoreGraphics.framework */,
+				709D0F031882F33E001E231A /* UIKit.framework */,
+				709D0F211882F33F001E231A /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		709D0F051882F33E001E231A /* DaunStoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				709D0F0E1882F33E001E231A /* AppDelegate.h */,
+				709D0F0F1882F33E001E231A /* AppDelegate.m */,
+				709D0F111882F33E001E231A /* Main_iPhone.storyboard */,
+				709D0F141882F33E001E231A /* Main_iPad.storyboard */,
+				709D0F171882F33E001E231A /* ViewController.h */,
+				709D0F181882F33E001E231A /* ViewController.m */,
+				709D0F1A1882F33E001E231A /* Images.xcassets */,
+				709D0F061882F33E001E231A /* Supporting Files */,
+			);
+			path = DaunStoryBoard;
+			sourceTree = "<group>";
+		};
+		709D0F061882F33E001E231A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				709D0F071882F33E001E231A /* DaunStoryBoard-Info.plist */,
+				709D0F081882F33E001E231A /* InfoPlist.strings */,
+				709D0F0B1882F33E001E231A /* main.m */,
+				709D0F0D1882F33E001E231A /* DaunStoryBoard-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		709D0F271882F33F001E231A /* DaunStoryBoardTests */ = {
+			isa = PBXGroup;
+			children = (
+				709D0F2D1882F33F001E231A /* DaunStoryBoardTests.m */,
+				709D0F281882F33F001E231A /* Supporting Files */,
+			);
+			path = DaunStoryBoardTests;
+			sourceTree = "<group>";
+		};
+		709D0F281882F33F001E231A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				709D0F291882F33F001E231A /* DaunStoryBoardTests-Info.plist */,
+				709D0F2A1882F33F001E231A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		709D0EFB1882F33E001E231A /* DaunStoryBoard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 709D0F311882F33F001E231A /* Build configuration list for PBXNativeTarget "DaunStoryBoard" */;
+			buildPhases = (
+				709D0EF81882F33E001E231A /* Sources */,
+				709D0EF91882F33E001E231A /* Frameworks */,
+				709D0EFA1882F33E001E231A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DaunStoryBoard;
+			productName = DaunStoryBoard;
+			productReference = 709D0EFC1882F33E001E231A /* DaunStoryBoard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		709D0F1F1882F33F001E231A /* DaunStoryBoardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 709D0F341882F33F001E231A /* Build configuration list for PBXNativeTarget "DaunStoryBoardTests" */;
+			buildPhases = (
+				709D0F1C1882F33F001E231A /* Sources */,
+				709D0F1D1882F33F001E231A /* Frameworks */,
+				709D0F1E1882F33F001E231A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				709D0F261882F33F001E231A /* PBXTargetDependency */,
+			);
+			name = DaunStoryBoardTests;
+			productName = DaunStoryBoardTests;
+			productReference = 709D0F201882F33F001E231A /* DaunStoryBoardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		709D0EF41882F33E001E231A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = ico;
+				TargetAttributes = {
+					709D0F1F1882F33F001E231A = {
+						TestTargetID = 709D0EFB1882F33E001E231A;
+					};
+				};
+			};
+			buildConfigurationList = 709D0EF71882F33E001E231A /* Build configuration list for PBXProject "DaunStoryBoard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 709D0EF31882F33E001E231A;
+			productRefGroup = 709D0EFD1882F33E001E231A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				709D0EFB1882F33E001E231A /* DaunStoryBoard */,
+				709D0F1F1882F33F001E231A /* DaunStoryBoardTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		709D0EFA1882F33E001E231A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				709D0F161882F33E001E231A /* Main_iPad.storyboard in Resources */,
+				709D0F1B1882F33E001E231A /* Images.xcassets in Resources */,
+				709D0F131882F33E001E231A /* Main_iPhone.storyboard in Resources */,
+				709D0F0A1882F33E001E231A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		709D0F1E1882F33F001E231A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				709D0F2C1882F33F001E231A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		709D0EF81882F33E001E231A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				709D0F191882F33E001E231A /* ViewController.m in Sources */,
+				709D0F101882F33E001E231A /* AppDelegate.m in Sources */,
+				709D0F0C1882F33E001E231A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		709D0F1C1882F33F001E231A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				709D0F2E1882F33F001E231A /* DaunStoryBoardTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		709D0F261882F33F001E231A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 709D0EFB1882F33E001E231A /* DaunStoryBoard */;
+			targetProxy = 709D0F251882F33F001E231A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		709D0F081882F33E001E231A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				709D0F091882F33E001E231A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		709D0F111882F33E001E231A /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				709D0F121882F33E001E231A /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		709D0F141882F33E001E231A /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				709D0F151882F33E001E231A /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		709D0F2A1882F33F001E231A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				709D0F2B1882F33F001E231A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		709D0F2F1882F33F001E231A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		709D0F301882F33F001E231A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		709D0F321882F33F001E231A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DaunStoryBoard/DaunStoryBoard-Prefix.pch";
+				INFOPLIST_FILE = "DaunStoryBoard/DaunStoryBoard-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		709D0F331882F33F001E231A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DaunStoryBoard/DaunStoryBoard-Prefix.pch";
+				INFOPLIST_FILE = "DaunStoryBoard/DaunStoryBoard-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		709D0F351882F33F001E231A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DaunStoryBoard.app/DaunStoryBoard";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DaunStoryBoard/DaunStoryBoard-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DaunStoryBoardTests/DaunStoryBoardTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		709D0F361882F33F001E231A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DaunStoryBoard.app/DaunStoryBoard";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DaunStoryBoard/DaunStoryBoard-Prefix.pch";
+				INFOPLIST_FILE = "DaunStoryBoardTests/DaunStoryBoardTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		709D0EF71882F33E001E231A /* Build configuration list for PBXProject "DaunStoryBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				709D0F2F1882F33F001E231A /* Debug */,
+				709D0F301882F33F001E231A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		709D0F311882F33F001E231A /* Build configuration list for PBXNativeTarget "DaunStoryBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				709D0F321882F33F001E231A /* Debug */,
+				709D0F331882F33F001E231A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		709D0F341882F33F001E231A /* Build configuration list for PBXNativeTarget "DaunStoryBoardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				709D0F351882F33F001E231A /* Debug */,
+				709D0F361882F33F001E231A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 709D0EF41882F33E001E231A /* Project object */;
+}
