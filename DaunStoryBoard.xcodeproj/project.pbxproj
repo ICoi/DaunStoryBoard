@@ -22,6 +22,28 @@
 		709D0F241882F33F001E231A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 709D0F031882F33E001E231A /* UIKit.framework */; };
 		709D0F2C1882F33F001E231A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 709D0F2A1882F33F001E231A /* InfoPlist.strings */; };
 		709D0F2E1882F33F001E231A /* DaunStoryBoardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 709D0F2D1882F33F001E231A /* DaunStoryBoardTests.m */; };
+		709D0F391882F3A2001E231A /* bowling.png in Resources */ = {isa = PBXBuildFile; fileRef = 709D0F371882F3A2001E231A /* bowling.png */; };
+		709D0F3A1882F3A2001E231A /* cat_face.png in Resources */ = {isa = PBXBuildFile; fileRef = 709D0F381882F3A2001E231A /* cat_face.png */; };
+		709D0F3C1882F3AB001E231A /* koala_face.png in Resources */ = {isa = PBXBuildFile; fileRef = 709D0F3B1882F3AB001E231A /* koala_face.png */; };
+		709D0F3F1882F3B5001E231A /* raccoon_face_abstract.png in Resources */ = {isa = PBXBuildFile; fileRef = 709D0F3D1882F3B5001E231A /* raccoon_face_abstract.png */; };
+		709D0F401882F3B5001E231A /* Red_Book.png in Resources */ = {isa = PBXBuildFile; fileRef = 709D0F3E1882F3B5001E231A /* Red_Book.png */; };
+		709D0F511882FA60001E231A /* 이미지 00.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 709D0F421882FA5F001E231A /* 이미지 00.jpg */; };
+		709D0F521882FA60001E231A /* 이미지 01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 709D0F431882FA5F001E231A /* 이미지 01.jpg */; };
+		709D0F531882FA60001E231A /* 이미지 02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 709D0F441882FA5F001E231A /* 이미지 02.jpg */; };
+		709D0F541882FA60001E231A /* 이미지 03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 709D0F451882FA5F001E231A /* 이미지 03.jpg */; };
+		709D0F551882FA60001E231A /* 이미지 04.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 709D0F461882FA5F001E231A /* 이미지 04.jpg */; };
+		709D0F561882FA60001E231A /* 이미지 05.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 709D0F471882FA5F001E231A /* 이미지 05.jpg */; };
+		709D0F571882FA60001E231A /* 이미지 06.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 709D0F481882FA5F001E231A /* 이미지 06.jpg */; };
+		709D0F581882FA60001E231A /* 이미지 07.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 709D0F491882FA5F001E231A /* 이미지 07.jpg */; };
+		709D0F591882FA60001E231A /* 이미지 08.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 709D0F4A1882FA60001E231A /* 이미지 08.jpg */; };
+		709D0F5A1882FA60001E231A /* 이미지 09.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 709D0F4B1882FA60001E231A /* 이미지 09.jpg */; };
+		709D0F5B1882FA60001E231A /* 이미지 10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 709D0F4C1882FA60001E231A /* 이미지 10.jpg */; };
+		709D0F5C1882FA60001E231A /* 이미지 11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 709D0F4D1882FA60001E231A /* 이미지 11.jpg */; };
+		709D0F5D1882FA60001E231A /* 이미지 12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 709D0F4E1882FA60001E231A /* 이미지 12.jpg */; };
+		709D0F5E1882FA60001E231A /* 이미지 13.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 709D0F4F1882FA60001E231A /* 이미지 13.jpg */; };
+		709D0F5F1882FA60001E231A /* 이미지 14.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 709D0F501882FA60001E231A /* 이미지 14.jpg */; };
+		709D0F621882FD6F001E231A /* BarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 709D0F611882FD6F001E231A /* BarViewController.m */; };
+		709D0F651882FE39001E231A /* GroupBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 709D0F641882FE39001E231A /* GroupBarViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +77,30 @@
 		709D0F291882F33F001E231A /* DaunStoryBoardTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DaunStoryBoardTests-Info.plist"; sourceTree = "<group>"; };
 		709D0F2B1882F33F001E231A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		709D0F2D1882F33F001E231A /* DaunStoryBoardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DaunStoryBoardTests.m; sourceTree = "<group>"; };
+		709D0F371882F3A2001E231A /* bowling.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bowling.png; sourceTree = "<group>"; };
+		709D0F381882F3A2001E231A /* cat_face.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cat_face.png; sourceTree = "<group>"; };
+		709D0F3B1882F3AB001E231A /* koala_face.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = koala_face.png; sourceTree = "<group>"; };
+		709D0F3D1882F3B5001E231A /* raccoon_face_abstract.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = raccoon_face_abstract.png; sourceTree = "<group>"; };
+		709D0F3E1882F3B5001E231A /* Red_Book.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Red_Book.png; sourceTree = "<group>"; };
+		709D0F421882FA5F001E231A /* 이미지 00.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "이미지 00.jpg"; sourceTree = "<group>"; };
+		709D0F431882FA5F001E231A /* 이미지 01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "이미지 01.jpg"; sourceTree = "<group>"; };
+		709D0F441882FA5F001E231A /* 이미지 02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "이미지 02.jpg"; sourceTree = "<group>"; };
+		709D0F451882FA5F001E231A /* 이미지 03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "이미지 03.jpg"; sourceTree = "<group>"; };
+		709D0F461882FA5F001E231A /* 이미지 04.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "이미지 04.jpg"; sourceTree = "<group>"; };
+		709D0F471882FA5F001E231A /* 이미지 05.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "이미지 05.jpg"; sourceTree = "<group>"; };
+		709D0F481882FA5F001E231A /* 이미지 06.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "이미지 06.jpg"; sourceTree = "<group>"; };
+		709D0F491882FA5F001E231A /* 이미지 07.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "이미지 07.jpg"; sourceTree = "<group>"; };
+		709D0F4A1882FA60001E231A /* 이미지 08.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "이미지 08.jpg"; sourceTree = "<group>"; };
+		709D0F4B1882FA60001E231A /* 이미지 09.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "이미지 09.jpg"; sourceTree = "<group>"; };
+		709D0F4C1882FA60001E231A /* 이미지 10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "이미지 10.jpg"; sourceTree = "<group>"; };
+		709D0F4D1882FA60001E231A /* 이미지 11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "이미지 11.jpg"; sourceTree = "<group>"; };
+		709D0F4E1882FA60001E231A /* 이미지 12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "이미지 12.jpg"; sourceTree = "<group>"; };
+		709D0F4F1882FA60001E231A /* 이미지 13.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "이미지 13.jpg"; sourceTree = "<group>"; };
+		709D0F501882FA60001E231A /* 이미지 14.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "이미지 14.jpg"; sourceTree = "<group>"; };
+		709D0F601882FD6F001E231A /* BarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarViewController.h; sourceTree = "<group>"; };
+		709D0F611882FD6F001E231A /* BarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarViewController.m; sourceTree = "<group>"; };
+		709D0F631882FE39001E231A /* GroupBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupBarViewController.h; sourceTree = "<group>"; };
+		709D0F641882FE39001E231A /* GroupBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupBarViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +160,12 @@
 		709D0F051882F33E001E231A /* DaunStoryBoard */ = {
 			isa = PBXGroup;
 			children = (
+				709D0F411882FA52001E231A /* Image */,
+				709D0F3D1882F3B5001E231A /* raccoon_face_abstract.png */,
+				709D0F3E1882F3B5001E231A /* Red_Book.png */,
+				709D0F3B1882F3AB001E231A /* koala_face.png */,
+				709D0F371882F3A2001E231A /* bowling.png */,
+				709D0F381882F3A2001E231A /* cat_face.png */,
 				709D0F0E1882F33E001E231A /* AppDelegate.h */,
 				709D0F0F1882F33E001E231A /* AppDelegate.m */,
 				709D0F111882F33E001E231A /* Main_iPhone.storyboard */,
@@ -122,6 +174,10 @@
 				709D0F181882F33E001E231A /* ViewController.m */,
 				709D0F1A1882F33E001E231A /* Images.xcassets */,
 				709D0F061882F33E001E231A /* Supporting Files */,
+				709D0F601882FD6F001E231A /* BarViewController.h */,
+				709D0F611882FD6F001E231A /* BarViewController.m */,
+				709D0F631882FE39001E231A /* GroupBarViewController.h */,
+				709D0F641882FE39001E231A /* GroupBarViewController.m */,
 			);
 			path = DaunStoryBoard;
 			sourceTree = "<group>";
@@ -153,6 +209,28 @@
 				709D0F2A1882F33F001E231A /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		709D0F411882FA52001E231A /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				709D0F421882FA5F001E231A /* 이미지 00.jpg */,
+				709D0F431882FA5F001E231A /* 이미지 01.jpg */,
+				709D0F441882FA5F001E231A /* 이미지 02.jpg */,
+				709D0F451882FA5F001E231A /* 이미지 03.jpg */,
+				709D0F461882FA5F001E231A /* 이미지 04.jpg */,
+				709D0F471882FA5F001E231A /* 이미지 05.jpg */,
+				709D0F481882FA5F001E231A /* 이미지 06.jpg */,
+				709D0F491882FA5F001E231A /* 이미지 07.jpg */,
+				709D0F4A1882FA60001E231A /* 이미지 08.jpg */,
+				709D0F4B1882FA60001E231A /* 이미지 09.jpg */,
+				709D0F4C1882FA60001E231A /* 이미지 10.jpg */,
+				709D0F4D1882FA60001E231A /* 이미지 11.jpg */,
+				709D0F4E1882FA60001E231A /* 이미지 12.jpg */,
+				709D0F4F1882FA60001E231A /* 이미지 13.jpg */,
+				709D0F501882FA60001E231A /* 이미지 14.jpg */,
+			);
+			name = Image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,8 +311,28 @@
 			files = (
 				709D0F161882F33E001E231A /* Main_iPad.storyboard in Resources */,
 				709D0F1B1882F33E001E231A /* Images.xcassets in Resources */,
+				709D0F5E1882FA60001E231A /* 이미지 13.jpg in Resources */,
+				709D0F511882FA60001E231A /* 이미지 00.jpg in Resources */,
+				709D0F3F1882F3B5001E231A /* raccoon_face_abstract.png in Resources */,
+				709D0F591882FA60001E231A /* 이미지 08.jpg in Resources */,
+				709D0F541882FA60001E231A /* 이미지 03.jpg in Resources */,
 				709D0F131882F33E001E231A /* Main_iPhone.storyboard in Resources */,
+				709D0F5C1882FA60001E231A /* 이미지 11.jpg in Resources */,
+				709D0F5A1882FA60001E231A /* 이미지 09.jpg in Resources */,
+				709D0F551882FA60001E231A /* 이미지 04.jpg in Resources */,
+				709D0F561882FA60001E231A /* 이미지 05.jpg in Resources */,
+				709D0F5D1882FA60001E231A /* 이미지 12.jpg in Resources */,
+				709D0F5F1882FA60001E231A /* 이미지 14.jpg in Resources */,
 				709D0F0A1882F33E001E231A /* InfoPlist.strings in Resources */,
+				709D0F3C1882F3AB001E231A /* koala_face.png in Resources */,
+				709D0F391882F3A2001E231A /* bowling.png in Resources */,
+				709D0F3A1882F3A2001E231A /* cat_face.png in Resources */,
+				709D0F521882FA60001E231A /* 이미지 01.jpg in Resources */,
+				709D0F531882FA60001E231A /* 이미지 02.jpg in Resources */,
+				709D0F571882FA60001E231A /* 이미지 06.jpg in Resources */,
+				709D0F5B1882FA60001E231A /* 이미지 10.jpg in Resources */,
+				709D0F581882FA60001E231A /* 이미지 07.jpg in Resources */,
+				709D0F401882F3B5001E231A /* Red_Book.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,6 +353,8 @@
 			files = (
 				709D0F191882F33E001E231A /* ViewController.m in Sources */,
 				709D0F101882F33E001E231A /* AppDelegate.m in Sources */,
+				709D0F621882FD6F001E231A /* BarViewController.m in Sources */,
+				709D0F651882FE39001E231A /* GroupBarViewController.m in Sources */,
 				709D0F0C1882F33E001E231A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
